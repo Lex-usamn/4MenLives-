@@ -1,0 +1,22 @@
+{
+  "name": "webrtc-server",
+  "version": "1.0.0",
+  "description": "WebRTC server for streaming dashboard guest connections",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["webrtc", "streaming", "mediasoup", "sfu"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mediasoup": "^3.15.16",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.0.3"
+  }
+}
+
