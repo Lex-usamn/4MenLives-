@@ -119,7 +119,7 @@ const Dashboard = () => {
   const downloadOBSConfig = async () => {
     try {
       const token = localStorage.getItem('token');
-      const response = await fetch(`https://vgh0i1coxgyk.manus.space/api/streaming/obs/config`, {
+      const response = await fetch(`https://8xhpiqclkjx5.manus.space/api/streaming/obs/config`, {
         method: 'GET',
         headers: {
           'Authorization': `Bearer ${token}`,
